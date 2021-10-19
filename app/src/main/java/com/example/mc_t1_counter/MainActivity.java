@@ -21,4 +21,10 @@ public class MainActivity extends AppCompatActivity {
         cnt=cnt+1;
         counter.setText(Integer.toString(cnt));
     }
+
+    public void decrementCounter(View view) {
+        int cnt = Integer.parseInt(counter.getText().toString());
+        cnt=cnt-1;
+        counter.setText(Integer.toString(cnt));
+    }
 }
