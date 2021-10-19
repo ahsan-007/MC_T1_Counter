@@ -27,4 +27,8 @@ public class MainActivity extends AppCompatActivity {
         cnt=cnt-1;
         counter.setText(Integer.toString(cnt));
     }
+
+    public void resetCounter(View view) {
+        counter.setText("0");
+    }
 }
